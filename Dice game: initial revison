@@ -1,0 +1,15 @@
+import java.util.Random;
+
+class Dicegame{
+  public static void main(String[] args){
+    Random dice = new Random();
+    int die1 = dice.nextInt(5) + 1; //genelate random value about dice1
+    int die2 = dice.nextInt(5) + 1; //genelate random value about dice2
+  
+    System.out.println("Rolling dice...");
+    System.out.println("Die 1: " + die1);
+    System.out.println("Die 2: " + die2);
+    int Total = die1 + die2; //culculate Total value
+    System.out.println("Total value: " + Total);
+    }
+}
