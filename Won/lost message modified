@@ -1,0 +1,11 @@
+class wonlost{
+    public static void main(String[] args){
+	int total, name;
+	if(total > 7){
+	    System.out.println(name + "won!");
+	}
+        else if{
+	    System.out.println(name + "lost!");
+	}
+    }
+}
