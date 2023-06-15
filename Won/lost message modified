@@ -5,7 +5,7 @@ class wonlost{
 	    System.out.println(name + "won!");
 	}
         else if{
-	    System.out.println(name + "lost!");
+	    System.out.println(name + "lost.");
 	}
     }
 }
